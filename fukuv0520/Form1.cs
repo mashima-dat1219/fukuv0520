@@ -17,5 +17,20 @@ namespace fukuv0520
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ボタン1が押された");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = 600;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            button2.Visible = false;
+        }
     }
 }
